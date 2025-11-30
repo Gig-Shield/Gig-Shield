@@ -40,7 +40,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-white/10 rounded-3xl backdrop-blur-sm flex items-center justify-center">
               <Image
                 src="/Hero section.png"
-                alt="Gig workers and contract labor workforce"
+                alt="Gig workers and delivery drivers receiving affordable insurance coverage from Gig Shield"
                 fill
                 className="object-cover rounded-3xl"
                 priority

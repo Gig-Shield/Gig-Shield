@@ -51,7 +51,7 @@ export default function WhyEmployers() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex gap-4">
-              <div className="flex-shrink-0">
+              <div className="shrink-0">
                 <div className="w-12 h-12 bg-[#FFC700] rounded-xl flex items-center justify-center">
                   <benefit.icon className="w-6 h-6 text-[#1E1E1E]" />
                 </div>
