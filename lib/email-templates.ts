@@ -225,7 +225,7 @@ export function getCustomerConfirmationTemplate(data: {
                     </a>
                   </td>
                   <td style="padding: 8px;">
-                    <a href="tel:+919876543210" style="display: block; padding: 14px 24px; background-color: #FFC700; color: #1E1E1E; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 14px; text-align: center;">
+                    <a href="tel:+916362665904" style="display: block; padding: 14px 24px; background-color: #FFC700; color: #1E1E1E; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 14px; text-align: center;">
                       Call Us Now
                     </a>
                   </td>

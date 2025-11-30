@@ -404,7 +404,7 @@ export default function ContactPage() {
                   Get instant responses to your questions on WhatsApp
                 </p>
                 <a 
-                  href="https://wa.me/919876543210" 
+                  href="https://wa.me/916362665904?text=Hi%20Gig%20Shield!%20I'm%20interested%20in%20getting%20insurance%20for%20my%20gig%20workers.%20I%20need%20coverage%20for%20approximately%20___%20workers.%20Can%20you%20please%20provide%20me%20with%20pricing%20and%20details?" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block w-full bg-white text-[#25D366] text-center py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
