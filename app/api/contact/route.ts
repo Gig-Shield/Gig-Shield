@@ -2,10 +2,11 @@ import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 import { getAdminEmailTemplate, getCustomerConfirmationTemplate } from '@/lib/email-templates';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
   try {
+    // Initialize Resend inside the handler to avoid build-time issues
+    const resend = new Resend(process.env.RESEND_API_KEY);
+    
     const body = await request.json();
     
     const {
